@@ -18,7 +18,7 @@ char* backingHandling;
 
 int main(int argc, const char *argv[]){
     
-    //Takes in Arguments for file names. 
+    //Takes in Arguments for file names
     //Error Handling:
     if (argc != 2 || argc < 1) {
        perror( "Too many or too few arguments. Program terminating.\n");
