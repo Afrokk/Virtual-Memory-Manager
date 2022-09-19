@@ -75,7 +75,7 @@ int main(int argc, const char *argv[]){
             physicalAddress = pageCheck;
             pageCheck++;
 
-            //Reading from the BACKINGSTORE file, a 256-bute chunk of data, and storing it in memory:
+            //Reading from the BACKINGSTORE file, a 256-byte chunk of data, and storing it in memory:
             memcpy(memory + physicalAddress * PAGE_SIZE, backingHandling + logicOffBit * PAGE_SIZE, PAGE_SIZE);
             addrNum[logicOffBit] = physicalAddress;
         }
