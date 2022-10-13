@@ -1,6 +1,6 @@
 <br/>
 <div align="center">
-  <a href="https://github.com/Afrokk/Airport-Simulator">
+  <a href="https://github.com/Afrokk/Virtual-Memory-Manager">
     <img src="images/clip.png" alt="Logo" width="315" height="315">
   </a>
 
